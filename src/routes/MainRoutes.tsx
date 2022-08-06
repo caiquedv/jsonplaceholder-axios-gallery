@@ -5,8 +5,8 @@ import { Photo } from "../pages/Photo";
 
 export const MainRoutes = () => {
     return useRoutes([
-        {path: '/', element: <Home />},
-        {path: '/albums/:slug', element: <Albums />},
-        {path: '/photos/:slug', element: <Photo />},
+        {path: '/react_photo-gallery/', element: <Home />},
+        {path: '/react_photo-gallery/albums/:slug', element: <Albums />},
+        {path: '/react_photo-gallery/photos/:slug', element: <Photo />},
     ]);
 }

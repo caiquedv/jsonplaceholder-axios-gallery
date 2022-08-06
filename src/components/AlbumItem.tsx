@@ -14,7 +14,7 @@ export const AlbumItem = ({ photos }: Props) => {
 
 			<div className='grid lg:grid-cols-5 md:grid-cols-3 gap-4 sm:grid-cols-2'>
 				{photos.map((item, index) => (
-					<Link className='border-2 border-black text-bla p-2' key={index} to={`/photos/${item.id}`}>
+					<Link className='border-2 border-black text-bla p-2' key={index} to={`/react_photo-gallery/photos/${item.id}`}>
 						{item.title}
 					</Link>
 				))}
